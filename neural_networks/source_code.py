@@ -2,7 +2,7 @@ import numpy as np
 import sys
 import pdb
 from sklearn.neural_network import MLPClassifier
-from sklearn.metrics import classification_report
+from sklearn.metrics import classification_report 
 import matplotlib.pyplot as plt 
 from sklearn.preprocessing import OneHotEncoder
 
