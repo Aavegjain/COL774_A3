@@ -1,0 +1,116 @@
+hidden_layer is [512]
+printing train report
+
+              precision    recall  f1-score   support
+
+         0.0       0.87      0.92      0.90      1971
+         1.0       0.69      0.76      0.72      1978
+         2.0       0.57      0.61      0.59      1952
+         3.0       0.55      0.47      0.51      2008
+         4.0       0.75      0.72      0.73      2091
+
+    accuracy                           0.69     10000
+   macro avg       0.69      0.69      0.69     10000
+weighted avg       0.69      0.69      0.69     10000
+
+printing test report
+
+              precision    recall  f1-score   support
+
+         0.0       0.91      0.91      0.91       229
+         1.0       0.68      0.73      0.70       198
+         2.0       0.57      0.61      0.59       199
+         3.0       0.52      0.51      0.52       187
+         4.0       0.71      0.61      0.66       187
+
+    accuracy                           0.68      1000
+   macro avg       0.68      0.67      0.67      1000
+weighted avg       0.69      0.68      0.68      1000
+
+hidden_layer is [512, 256]
+printing train report
+
+              precision    recall  f1-score   support
+
+         0.0       0.90      0.94      0.92      1971
+         1.0       0.71      0.80      0.76      1978
+         2.0       0.60      0.61      0.61      1952
+         3.0       0.56      0.52      0.54      2008
+         4.0       0.77      0.69      0.73      2091
+
+    accuracy                           0.71     10000
+   macro avg       0.71      0.71      0.71     10000
+weighted avg       0.71      0.71      0.71     10000
+
+printing test report
+
+              precision    recall  f1-score   support
+
+         0.0       0.93      0.94      0.93       229
+         1.0       0.71      0.75      0.73       198
+         2.0       0.58      0.63      0.60       199
+         3.0       0.54      0.55      0.54       187
+         4.0       0.76      0.62      0.68       187
+
+    accuracy                           0.71      1000
+   macro avg       0.70      0.70      0.70      1000
+weighted avg       0.71      0.71      0.71      1000
+
+hidden_layer is [512, 256, 128]
+printing train report
+
+              precision    recall  f1-score   support
+
+         0.0       0.87      0.97      0.92      1971
+         1.0       0.79      0.71      0.75      1978
+         2.0       0.64      0.66      0.65      1952
+         3.0       0.60      0.42      0.50      2008
+         4.0       0.70      0.86      0.77      2091
+
+    accuracy                           0.73     10000
+   macro avg       0.72      0.73      0.72     10000
+weighted avg       0.72      0.73      0.72     10000
+
+printing test report
+
+              precision    recall  f1-score   support
+
+         0.0       0.88      0.99      0.93       229
+         1.0       0.81      0.69      0.74       198
+         2.0       0.63      0.63      0.63       199
+         3.0       0.56      0.47      0.51       187
+         4.0       0.69      0.81      0.74       187
+
+    accuracy                           0.73      1000
+   macro avg       0.71      0.72      0.71      1000
+weighted avg       0.72      0.73      0.72      1000
+
+hidden_layer is [512, 256, 128, 64]
+printing train report
+
+              precision    recall  f1-score   support
+
+         0.0       0.69      0.87      0.77      1971
+         1.0       0.00      0.00      0.00      1978
+         2.0       0.20      0.05      0.08      1952
+         3.0       0.00      0.00      0.00      2008
+         4.0       0.30      1.00      0.46      2091
+
+    accuracy                           0.39     10000
+   macro avg       0.24      0.38      0.26     10000
+weighted avg       0.24      0.39      0.26     10000
+
+printing test report
+
+              precision    recall  f1-score   support
+
+         0.0       0.71      0.84      0.77       229
+         1.0       0.00      0.00      0.00       198
+         2.0       0.17      0.04      0.06       199
+         3.0       0.00      0.00      0.00       187
+         4.0       0.27      1.00      0.43       187
+
+    accuracy                           0.39      1000
+   macro avg       0.23      0.37      0.25      1000
+weighted avg       0.25      0.39      0.27      1000
+
