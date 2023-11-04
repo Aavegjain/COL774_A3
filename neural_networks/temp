@@ -1,0 +1,16 @@
+\begin{{table}}[H]
+    \centering
+    \caption{{Hidden layer size {hidden_layers[i]} }}
+    \large
+    \begin{{tabularx}}{{0.7\textwidth\}}{{XXXX}}
+    \toprule
+        & Precision & Recall & F1 score \\
+    \midrule
+    class 0    &   {test_precision[0][i]}  &  {test_recall[0][i]}   &  {test_f1[0][i]}      \\ 
+    class 1   &   {test_precision[1][i]}  &  {test_recall[1][i]}   &  {test_f1[1][i]}      \\   
+    class 2   &   {test_precision[2][i]}  &  {test_recall[2][i]}   &  {test_f1[2][i]}      \\
+    class 3    &   {test_precision[3][i]}  &  {test_recall[3][i]}   &  {test_f1[3][i]}      \\ 
+    class 4    &   {test_precision[4][i]}  &  {test_recall[4][i]}   &  {test_f1[4][i]}      \\  
+    \bottomrule
+    \end{{tabularx}}
+    \end{{table}}
